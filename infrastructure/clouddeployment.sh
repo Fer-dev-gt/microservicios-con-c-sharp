@@ -1,8 +1,8 @@
 #!/bin/bash
 
-RESOURCE_GROUP_NAME="rg-microservicios"
-LOCATION="eastus2"
-SB_NAMESPACE_NAME="sb-age"
+RESOURCE_GROUP_NAME="sqldatabasedemo"
+LOCATION="westus2"
+SB_NAMESPACE_NAME="messagebroker777"
 CONTAINER_APPS_ENV_NAME="env-microservicios"
 
 # Create a resource group

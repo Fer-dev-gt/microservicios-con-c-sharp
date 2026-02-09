@@ -3,13 +3,13 @@
 Agrega los siguientes paquetes de Nuget en tu proyecto **AddChild** y después ejecútalo.
 
 ```bash
-dotnet add package Azure.Messaging.ServiceBus
-dotnet add package Microsoft.Extensions.Configuration
-dotnet add package Microsoft.Extensions.Configuration.FileExtensions
-dotnet add package Microsoft.Extensions.Configuration.Json
-dotnet add package Microsoft.Extensions.Hosting
-dotnet add package Microsoft.EntityFrameworkCore
-dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+dotnet add package Azure.Messaging.ServiceBus --version 8.0.12 
+dotnet add package Microsoft.Extensions.Configuration --version 8.0.12
+dotnet add package Microsoft.Extensions.Configuration.FileExtensions --version 8.0.12
+dotnet add package Microsoft.Extensions.Configuration.Json --version 8.0.12
+dotnet add package Microsoft.Extensions.Hosting --version 8.0.12
+dotnet add package Microsoft.EntityFrameworkCore --version 8.0.12
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 8.0.12
 
 dotnet run
 ```

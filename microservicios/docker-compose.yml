@@ -1,4 +1,4 @@
-  services:
+services:
     addmember:
       image: addmember
       build:
@@ -27,4 +27,11 @@
         context: ./GetAdults
         dockerfile: Dockerfile
       ports:
-        - "5000:8080"
+        - "5005:8080"
+    getChildren:
+      image: getchildren
+      build:
+        context: ./GetChildren
+        dockerfile: Dockerfile
+      ports:
+        - "5007:8080"
