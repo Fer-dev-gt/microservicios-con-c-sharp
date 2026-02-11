@@ -6,7 +6,7 @@ on:
 
 env:
   SERVICE_NAME: addmember
-  RESOURCE_GROUP: rg-microservicios
+  RESOURCE_GROUP: sqldatabasedemo
   IMAGE_BASE_NAME: aminespinoza/addmember:latest
   ENVIRONMENT_NAME: env-microservicios
 
